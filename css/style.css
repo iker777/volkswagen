@@ -1,0 +1,88 @@
+/*Tipography & Smooth scroll*/
+body{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Corporative Colors*/
+/*Root*/
+:root{
+    --iker: #295ca7;
+    --grey_secondary: #eeeded;
+}
+/*Colores*/
+.bg-primary{
+    background-color: var(--iker)!important;
+}
+.bg-secondary{
+    background-color: var(--grey_secondary)!important;
+}
+.bg-footer{
+    background-color: rgba(36, 36, 36, 0.8);
+}
+.border-primary{
+    border: 1px solid var(--iker)!important;
+}
+a{
+    color: var(--iker);  
+}
+.badge-primary{
+    background-color: var(--iker)!important;
+}
+.btn-primary{
+    background-color: var(--iker)!important;   
+}
+.btn-primary:hover{
+    background-color: #104ba3!important;
+}
+.btn-link{
+    color: #ffffff!important;
+}
+nav>:first-child>img{
+    width: 15%;
+}
+/*Fonts and text*/
+ul>li>a.btn{
+    text-align: left;
+}
+/*Nav-bar buttons*/
+.nav-pills > .nav-item > .btn-primary{
+    background-color: white!important;
+    color: var(--iker)!important;
+    border: none;
+}
+.nav-pills > .nav-item > .active{
+    background-color: var(--iker)!important;
+    color: white!important;
+}
+/*Background image*/
+.background-image-car{
+    padding: 15%;
+    background: linear-gradient(to bottom, rgba(66, 67, 92, 0.8) 0, rgba(92, 70, 66, 0.8) 100%), url("../img/vw-cover.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+/**/
+.hr-primary{
+    border-bottom: 3px solid var(--iker);
+    width: 5%;
+}
+.hr-primary-w-100{
+    border-bottom: 1px solid var(--iker);
+    width: 100%;
+}
+.hr-white{
+    border-bottom: 3px solid #ffffff;
+    width: 10%;
+}
+/*Brands section*/
+#brands .color-hover-change:hover{
+    background-color:#104ba3!important;
+}
+/*Footer*/
+footer .color-hover-change:hover{
+    background-color:#3b3b3b!important;
+    border-radius: 50px 50px;
+}
